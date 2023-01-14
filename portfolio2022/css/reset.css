@@ -1,0 +1,166 @@
+/* reset */
+*{margin:0;padding:0;}
+a{text-decoration:none;color:#000;}
+ul,ol{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;font-size:inherit;}
+i,em{font-style:normal;}
+strong,b{font-weight:normal;}
+table{border-collapse:collapse;}
+hr{display:none;}
+
+
+@import url('http://fonts.cdnfonts.com/css/segoe-ui-variable');
+/* font-family: 'Segoe UI Variable', sans-serif; */
+
+/* Gowun Batang */
+/* font-family: 'Gowun Batang', serif; */
+
+/* 노토산스 */
+/* font-family: 'Noto Sans KR', sans-serif; */
+
+
+
+/* 도현체 */
+@font-face {
+    font-family: 'BMDOHYEON';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMDOHYEON.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 미생체 */
+@font-face {
+    font-family: 'SDMiSaeng';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SDMiSaeng.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+     font-family: 'locus_sangsang';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/locus_sangsang.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+
+@font-face {
+  font-family: "KCCDodamdodam";
+  font-style: normal;
+  src:url("../fonts/KCCDodamdodam.woff");
+  src:url("../fonts/KCCDodamdodam.ttf");
+}
+
+@font-face {
+  font-family: forma-djr-text, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+
+
+
+/* 동그라미재단M */
+@font-face {
+    font-family: 'ThecircleM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/ThecircleM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* about */
+/* font-family: 'Architects Daughter', cursive; */
+
+/* 나눔붓펜  //redehd */
+@font-face {
+    font-family: 'NanumBarunpen';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumBarunpen.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Outfit  //redehd */
+/* font-family: 'Outfit', sans-serif; */
+
+
+/* pop-up h2 /banner_txt */
+@font-face {
+    font-family: 'Cafe24Dangdanghae';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.2/Cafe24Dangdanghae.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 페이북 pop-up p */
+@font-face {
+    font-family: 'paybooc-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/* 넥슨고딕 (skill p / banner_slide > li.on .banner_txt )*/
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* skill title */
+@font-face {
+    font-family: 'comic';
+    src: url('../fonts/comic.ttf');
+}
+
+/* source sans (skill h2)*/
+/* font-family: 'Source Sans Pro', sans-serif; */
+
+/* about fonts
+font-family: 'Corinthia', cursive; */
+
+/* intro fonts */
+/* font-family: 'Mochiy Pop P One', sans-serif; */
+
+/* 랜딩페이지 */
+/* font-family: 'Concert One', cursive; */
+
+
+/* 주아체   about section*/
+@font-face {
+  font-family: 'BMJUA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+/* 빙그레체  about section */
+@font-face {
+    font-family: 'Binggrae-Two';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* redesing1 */
+/* font-family: 'Aleo', serif; */
+/* font-family: 'Lora', serif; */
+
+@font-face {
+    font-family: 'EliceDigitalBaeum_Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/EliceDigitalBaeum_Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 노트북 1280 */

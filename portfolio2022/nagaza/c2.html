@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>캘린더 - 일정</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minmum-scale=1.0,maximum-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="./js/main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrap">
+        <header class="header_6">
+          <h1>일정을 기록해주세요.<a href="./calendar.html"><img src="./img/svg/close.svg" alt="닫기"></a></h1>
+        </header>
+        <section class="c1">
+          <p>2021년 10월 1일</p><img src="./img/svg/down_arrow.svg" alt="화살표아이콘">
+        </section>
+        <section class="c2">
+          <form>
+            <input type="text" placeholder="할일 제목">
+            <div class="color">
+              <div>
+                <p class="colorp">컬러</p>
+                <img src="./img/svg/right_arrow.svg" alt="화살표">
+              </div>
+              <ul class="colorList">
+                <li>분홍</li>
+                <li>주황</li>
+                <li>노랑</li>
+                <li>초록</li>
+                <li>연두</li>
+                <li>파랑</li>
+                <li>보라</li>
+                <li>회색</li>
+              </ul>
+            </div>
+           <label for="memo">메모</label>
+           <textarea id="memo" placeholder="메모를 입력하세요."></textarea>
+         </form>
+        </section>
+        <section class="c3">
+          <h3>알림</h3>
+          <img src="./img/svg/on.svg" alt="on">
+          <img src="./img/svg/off.svg" alt="off">
+        </section>
+        <section class="c4">
+          <h3>시간</h3>
+          <p>오전 00:00</p>
+        </section>
+      </div>
+        <button class="btn_Enrollment" type="button">등록</button>
+    </div>
+  </body>
+</html>

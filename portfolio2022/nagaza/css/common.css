@@ -1,0 +1,42 @@
+*{margin:0;padding:0;}
+a{color:#000;text-decoration:none;}
+ul,ol{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;font-size:inherit;}
+h1{font-family: 'Concert One', cursive;}
+i,em{font-style:normal;}
+b,strong{font-weight:normal;}
+table{border-collapse:collapse;}
+html{font-family: "Dongdong";}
+
+@font-face {
+  font-family: "KCCDodamdodam";
+  font-style: normal;
+  src:url("../font/KCCDodamdodam.woff");
+  src:url("../font/KCCDodamdodam.ttf");
+}
+
+@font-face {
+  font-family: "Dongdong";
+  font-style: normal;
+  src:url("../font/Cafe24Dongdong.ttf");
+}
+
+
+@font-face {
+    font-family: 'Dongle-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108_2@1.0/Dongle-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family:"ownglyph_mando";
+  src:url("../font/ownglyph_mando.ttf");
+}
+
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

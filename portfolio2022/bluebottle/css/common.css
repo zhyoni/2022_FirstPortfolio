@@ -1,0 +1,22 @@
+/* reset */
+*{margin:0;padding:0;}
+ol,ul{list-style:none;}
+a{text-decoration:none;color:#000;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:normal;}
+strong,b{font-weight:normal;}
+i,em{font-style:normal;}
+hr{display:none;}
+table{border-collapse:collapse;}
+sub{font-size:60px;}
+address{font-style:normal;}
+html,body{height:100%;}
+
+/* common */
+
+
+@font-face {
+    font-family: 'twayair';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twayair.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

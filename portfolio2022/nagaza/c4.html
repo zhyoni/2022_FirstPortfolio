@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>캘린더 - 지출</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minmum-scale=1.0,maximum-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="./js/main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrap">
+        <header class="header_6">
+          <h1>지출을 기록해주세요.<a href="./calendar.html"><img src="./img/svg/close.svg" alt="닫기"></a></h1>
+        </header>
+        <section class="c1">
+          <p>2021년 10월 1일</p><img src="./img/svg/down_arrow.svg" alt="화살표아이콘">
+        </section>
+        <div class="kinds">
+          <h2>분류</h2>
+          <ul>
+            <li class="kinds_Li">
+              <div>
+                <img src="./img/svg/feedc4.svg" alt="사료아이콘">
+                <p>사료</p>
+              </div>
+            </li>
+            <li class="kinds_Li">
+              <div>
+                <img src="./img/svg/snack.svg" alt="간식아이콘">
+                <p>간식</p>
+              </div>
+            </li>
+            <li class="kinds_Li">
+              <div>
+                <img src="./img/svg/toy.svg" alt="의류/장난간 아이콘">
+                <p>애견용품</p>
+              </div>
+            </li>
+          </ul>
+          <ul>
+            <li class="kinds_Li">
+              <div>
+                <img src="./img/svg/beauty.svg" alt="미용아이콘">
+                <p>미용</p>
+              </div>
+            </li>
+            <li class="kinds_Li">
+              <div>
+                <img src="./img/svg/hospital.svg" alt="병원아이콘">
+                <p>병원</p>
+              </div>
+            </li>
+            <li class="kinds_Li">
+              <div>
+                <img src="./img/svg/etc.svg" alt="기타아이콘">
+                <p>기타</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <form class="c6">
+          <label for="">지출내역</label>
+          <input type="text" placeholder="지출내역 이름을 입력해주세요.">
+          <label for="">금액</label>
+          <input type="text" placeholder="금액을 입력해주세요.">
+        </form>
+      </div>
+        <button class="btn_Enrollment" type="button">등록</button>
+    </div>
+  </body>
+</html>

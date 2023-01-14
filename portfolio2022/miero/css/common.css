@@ -1,0 +1,13 @@
+/* reset */
+*{margin:0;padding:0;}
+ol,ul{list-style:none;}
+a{text-decoration:none;color:#000;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:normal;}
+strong,b{font-weight:normal;}
+i,em{font-style:normal;}
+hr{display:none;}
+table{border-collapse:collapse;}
+html,body{height:100%;}
+
+/* common */
+html{font-size:14px;font-family: 'Noto Sans KR', sans-serif;}

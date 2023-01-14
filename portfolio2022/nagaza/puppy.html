@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>반려견관리</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minmum-scale=1.0,maximum-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/common.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrap">
+        <header class="header_5">
+          <a href="./main.html"><span>뒤로가기</span></a>
+          <h1 class="logo_4"><i>반려견 관리</i></h1>
+          <a class="a" href="./home.html"><img src="./img/svg/home.svg" alt="홈"></a>
+        </header>
+        <div class="puppyModify">
+          <section>
+            <img src="./img/svg/puppy.svg" alt="강아지아이콘">
+            <img src="./img/svg/modify2.svg" alt="수정아이콘">
+          </section>
+        </div>
+        <form class="puppyform">
+          <label class="puppyName pufo pufo1" for="puppyName">반려견 이름</label>
+          <input type="text" id="puppyName" placeholder="반려견의 이름을 입력해주세요.">
+          <div class="ppGn">
+            <h2 class="pufo">성별은 무엇인가요?</h2>
+            <input type="radio" name="dogGender" id="puppyBoy">
+            <label for="puppyBoy">남아</label>
+            <input type="radio" name="dogGender" id="puppyGirl">
+            <label for="puppyGirl">여아</label>
+          </div>
+          <div class="puppykind">
+            <h2 class="pufo pufo1">어떤 품종인가요?</h2>
+            <input type="radio" name="color" id="brown">
+            <label for="brown">갈색</label>
+            <input type="radio" name="color" id="black">
+            <label for="black">검정</label>
+            <input type="radio" name="color" id="beige">
+            <label for="beige">베이</label>
+            <input type="radio" name="color" id="gray">
+            <label for="gray">회색</label>
+            <input type="radio" name="color" id="white">
+            <label for="white">흰색</label>
+
+          </div>
+          <label class="puppyDay pufo" for="puppyDay">생일은 언제인가요?</label>
+          <input class="pufo" type="text" id="puppyDay" placeholder="ex) 2021. 00. 00">
+
+          <div class="neutering">
+            <label class="pufo">중성화 여부를 확인해주세요. (선택)</label>
+
+            <input type="radio" name="check" id="yes">
+            <label class="pufo" for="yes">예</label>
+
+            <input type="radio" name="check" id="no">
+            <label class="pufo" for="no">아니오</label>
+
+            <input type="radio" name="check" id="dont">
+            <label class="pufo" for="dont">모름</label>
+          </div>
+
+          <div class="puppyWeight">
+            <label class="pufo" for="puppyWeight">몸무게를 입력해주세요. (선택)</label>
+            <input type="text" id="puppyWeight"><span class="kg pufo">kg</span>
+          </div>
+
+          <div class="prevention">
+            <label class="pufo">반려견 예방접종 여부를 선택해주세요. (선택)</label>
+            <input type="radio" name="check" id="yes">
+            <label class="pufo" for="yes">예</label>
+
+            <input type="radio" name="check">
+            <label class="pufo" for="no">아니오</label>
+
+            <input type="radio" name="check">
+            <label class="pufo" for="dont">모름</label>
+          </div>
+
+
+          <label class="dose pufo">예방 접종한 것을 선택해주세요. (선택)</label>
+          <select class="select1 pufo">
+            <option>전체선택</option>
+            <option>종합백신</option>
+            <option>코로나 장염 예방접종</option>
+            <option>켄넬코프 예방접종</option>
+            <option>광견병 예방접종</option>
+            <option>인플루앤자 예방접종</option>
+            <option>심장사상충 예방</option>
+          </select>
+        </form>
+        <div class="plus">
+          <p class="pufo">반려견 추가</p>
+          <img src="./img/svg/plus.svg" alt="추가아이콘">
+        </div>
+      </div>
+      <div class="btn_puppy">
+        <button class="btn_delete" type="button">삭제</button>
+        <button class="btn-save" type="button">저장</button>
+      </div>
+    <div>
+  </body>
+</html>
